@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-midnight: #0D0B1F;
+  --color-brand-surface: #16122C;
+  --color-brand-lavender: #B794F4;
+  --color-brand-violet: #D2BBFF;
+  --color-brand-gold: #D4AF37;
+  
+  --font-serif: "Noto Sans KR", sans-serif;
+  --font-sans: "Noto Sans KR", sans-serif;
+  
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-midnight text-brand-lavender/90 font-sans antialiased;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-brand-midnight;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-brand-lavender/30 rounded-full hover:bg-brand-lavender/50 transition-all;
+  }
+}
+
+.glass {
+  @apply bg-brand-surface/40 backdrop-blur-xl border border-brand-lavender/10 shadow-2xl shadow-brand-lavender/5;
+}
+
+.glass-pill {
+  @apply bg-brand-lavender/10 backdrop-blur-md border border-brand-lavender/20 rounded-full;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-lavender via-white to-brand-violet;
+}
+
+.glow-hover {
+  @apply transition-all duration-300 hover:shadow-[0_0_20px_rgba(183,148,244,0.3)];
+}

@@ -1,0 +1,8 @@
+{
+  "name": "타로프로",
+  "description": "타로 상담사의 통찰력을 극대화하는 인공지능 상담 보조 프로그램 타로프로입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
