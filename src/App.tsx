@@ -40,10 +40,10 @@ const Hero = () => (
           transition={{ duration: 0.8 }}
           className="z-10 text-center lg:text-left"
         >
-          <h1 className="text-4xl md:text-7xl font-extrabold mb-10 tracking-tight leading-[1.2] md:leading-[1.1] break-keep">
-            타로 상담 중 막히는 순간,<br className="md:hidden" /> AI가 <span className="text-brand-lavender">다음 흐름</span>을<br /> 함께 잡아드립니다
+          <h1 className="text-[28px] leading-[1.3] md:text-7xl font-extrabold mb-10 tracking-tight md:leading-[1.1] break-keep">
+            타로 상담 중 막히는 순간,<br /> AI가 <span className="text-brand-lavender text-gradient">다음 흐름</span>을<br /> 함께 잡아드립니다
           </h1>
-          <p className="text-lg md:text-xl text-white/60 mb-12 leading-relaxed max-w-xl break-keep">
+          <p className="text-base md:text-xl text-white/60 mb-12 leading-relaxed max-w-xl break-keep">
             상담 답변이 막히는 순간, 카드 해석과 내담자의 상황을 함께 정리해 상담사가 참고할 수 있는 답변 흐름을 제안하는 타로 상담 보조 프로그램입니다.
           </p>
           <div className="flex justify-center lg:justify-start">
