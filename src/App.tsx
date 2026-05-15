@@ -140,7 +140,7 @@ const Problems = () => (
 );
 
 const Solution = () => (
-  <section id="program" className="py-40 px-6">
+  <section id="program" className="py-40 px-4 md:px-6">
     <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-24 items-center">
       <div className="order-2 lg:order-1">
         <h2 className="text-4xl md:text-5xl font-bold mb-10 leading-tight">
@@ -202,7 +202,7 @@ const Solution = () => (
 );
 
 const Showcase = () => (
-  <section className="py-40 px-6">
+  <section className="py-40 px-4 md:px-6">
     <div className="max-w-5xl mx-auto text-center mb-24">
       <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">직관적인 상담 화면</h2>
       <p className="text-white/40 max-w-xl mx-auto">상담 중 필요한 기능을 빠르게 확인할 수 있도록 구성했습니다.</p>
@@ -246,8 +246,8 @@ const Showcase = () => (
 );
 
 const BetaRecruitment = () => (
-  <section id="apply" className="py-20 px-6">
-    <div className="max-w-5xl mx-auto glass rounded-[40px] p-10 md:p-14 relative overflow-hidden ring-1 ring-white/10 shadow-2xl shadow-brand-lavender/5">
+  <section id="apply" className="py-20 px-4 md:px-6">
+    <div className="max-w-5xl mx-auto glass rounded-[40px] p-6 md:p-14 relative overflow-hidden ring-1 ring-white/10 shadow-2xl shadow-brand-lavender/5">
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-lavender/10 rounded-full blur-[120px] -mr-60 -mt-60" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-brand-gold/5 rounded-full blur-[100px] -ml-40 -mb-40" />
 
@@ -349,8 +349,8 @@ const Guide = () => (
 );
 
 const Warnings = () => (
-  <section className="px-6 pb-40">
-    <div className="max-w-5xl mx-auto glass border-white/10 p-12 rounded-[40px] ring-1 ring-white/5">
+  <section className="px-4 md:px-6 pb-40">
+    <div className="max-w-5xl mx-auto glass border-white/10 p-6 md:p-12 rounded-[40px] ring-1 ring-white/5">
       <div className="flex items-center gap-4 text-white/80 mb-8 font-bold text-lg">
         <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center">
           <AlertCircle className="w-5 h-5 opacity-60" />
