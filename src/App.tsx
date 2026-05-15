@@ -66,7 +66,7 @@ const Hero = () => (
         >
           <div className="relative z-10 w-full lg:w-[500px] aspect-square rounded-[56px] overflow-hidden glass p-4 shadow-2xl shadow-brand-lavender/10">
             <img
-              src="/src/assets/images/regenerated_image_1778762674094.png"
+              src="assets/images/regenerated_image_1778762674094.png"
               alt="Mystical tarot cards"
               className="w-full h-full object-cover rounded-[42px] brightness-110 contrast-110 hover:scale-105 transition-all duration-1000"
             />
@@ -211,22 +211,22 @@ const Showcase = () => (
     <div className="max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-20 md:gap-6">
       {[
         {
-          img: "/src/assets/images/regenerated_image_1778762674094.png",
+          img: "assets/images/regenerated_image_1778762674094.png",
           title: "1. 상담 답변 보조",
           desc: "질문과 카드 정보를 바탕으로 상담사가 참고할 수 있는 답변 초안을 제안합니다. 상황을 구체적으로 입력할수록 더 자연스러운 상담 흐름을 잡을 수 있습니다."
         },
         {
-          img: "/src/assets/images/regenerated_image_1778762676811.png",
+          img: "assets/images/regenerated_image_1778762676811.png",
           title: "2. 상담 흐름 분석",
           desc: "현재 상담이 어떤 방향으로 흘러가고 있는지 정리해줍니다. 핵심 고민, 내담자가 원하는 것, 속마음, 주의할 점을 참고할 수 있습니다."
         },
         {
-          img: "/src/assets/images/2.png",
+          img: "assets/images/2.png",
           title: "3. 무료/유료 흐름 관리",
           desc: "무료 상담과 심층 상담의 흐름을 구분해 운영할 수 있도록 구성했습니다. 상담사가 직접 흐름을 보며 다음 단계로 이어갈 수 있습니다."
         },
         {
-          img: "/src/assets/images/1.png",
+          img: "assets/images/1.png",
           title: "4. 모델/API 설정",
           desc: "AI 사용을 위한 기본 설정 화면입니다. Google Gemini API 키를 입력하면 바로 사용할 수 있으며, 발급 방법은 별도 안내해드립니다."
         },
